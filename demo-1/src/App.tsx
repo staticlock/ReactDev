@@ -1,4 +1,3 @@
-import './App.css'
 // 插值语法 {}
 function App() {
   let obj = { name: "ss" }
