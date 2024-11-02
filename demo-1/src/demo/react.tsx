@@ -1,8 +1,8 @@
-const App = () => {
-    return (<div id="2">
-        <span>小满zs</span>
-    </div>)
-}
+const App = (): JSX.Element => (
+    <div id="app-container">
+        <span>Hello World</span>
+    </div>
+);
 // 上面这段代码会通过babel或者swc转换成
 // const App = () => {
 //     return React.createElement('div', { id: 2 },
