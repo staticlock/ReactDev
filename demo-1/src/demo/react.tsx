@@ -1,8 +1,12 @@
-const App = function() (
-    <div>
-        <span>Hello World</span>
-    </div>
-)
+const App = function () {
+    return (
+        <>
+            <div>
+                <span>Hello World</span>
+            </div>
+        </>
+    )
+}
 // 上面这段代码会通过babel或者swc转换成
 // const App = () => {
 //     return React.createElement('div', { id: 2 },
