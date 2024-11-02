@@ -10,6 +10,7 @@ const App = (): JSX.Element => (
 //     );
 // };
 //实现简易虚拟DOM
+
 const React = {
     //children为子元素
     createElement(type: string, props: {} | null, ...children: any[]) {
