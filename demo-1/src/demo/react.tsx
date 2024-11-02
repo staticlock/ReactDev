@@ -1,4 +1,4 @@
-const App = (): JSX.Element => (
+const App = function() (
     <div>
         <span>Hello World</span>
     </div>
